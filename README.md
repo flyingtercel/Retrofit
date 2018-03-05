@@ -28,6 +28,7 @@ Retrofit提供的请求方式注解有两种@GET和@POST，参数注解有@Path�
     Call<String>getString(@Query("longinname")String name,@Query("longinpass")String pass);
 ```
 ###### 接口列表：
+```
 
 地址	         请求方法	       参数	                                    说明
 /blog	     GET	    page={page},sort=asc或desc	            分页获取Blog列表,每页10条

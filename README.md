@@ -28,7 +28,7 @@ Retrofit提供的请求方式注解有两种@GET和@POST，参数注解有@Path�
     Call<String>getString(@Query("longinname")String name,@Query("longinpass")String pass);
 ```
 ###### 接口列表：
-![参数一](https://github.com/flyingtercel/Retrofit/blob/master/retrofit01/src/main/res/drawable/ss.png)  </br>
+![接口列表](https://github.com/flyingtercel/Retrofit/blob/master/retrofit01/src/main/res/drawable/ss.png)  </br>
 ###### 参数一
 ![参数一](https://github.com/flyingtercel/Retrofit/blob/master/retrofit01/src/main/res/drawable/s0.png)  </br>
 ###### 参数二

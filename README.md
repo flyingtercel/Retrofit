@@ -28,19 +28,7 @@ Retrofit提供的请求方式注解有两种@GET和@POST，参数注解有@Path�
     Call<String>getString(@Query("longinname")String name,@Query("longinpass")String pass);
 ```
 ###### 接口列表：
-```
-
-地址	         请求方法	       参数	                                    说明
-/blog	     GET	    page={page},sort=asc或desc	            分页获取Blog列表,每页10条
-/blog/{id}	 GET	    id	                                    获取指定ID的Blog
-/blog	     POST       {"author":"","title":"","content":""}	创建一个新Blog
-/blog/{id}	 PUT	    {"author":"","title":"","content":""}   中至少一个	修改Blog
-/blog/{id}	 DELETE	    id	                                    删除一个Blog
-/form	     POST       任意,最终以Json Object形式返回	        用于测试Form表单，支持文件上传
-/headers	 GET	    showAll=true或false,默认false	        返回自定义请求头，all=true是显示全部
-注：以上的接口的{id}和{page}均代表一个纯数字，/blog/{id} 可以用 /blog?id=XXX 代替，page同理。
-
-```
+![参数一](https://github.com/flyingtercel/Retrofit/blob/master/retrofit01/src/main/res/drawable/ss.png)  </br>
 ###### 参数一
 ![参数一](https://github.com/flyingtercel/Retrofit/blob/master/retrofit01/src/main/res/drawable/s0.png)  </br>
 ###### 参数二
